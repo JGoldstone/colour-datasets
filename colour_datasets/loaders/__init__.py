@@ -7,6 +7,7 @@ from colour.utilities import CaseInsensitiveMapping, warning
 from colour_datasets.records import datasets
 
 from .abstract import AbstractDatasetLoader
+from .abramowitzxxxx import DatasetLoader_Abramowitzxxxx, build_Abramowitzxxxx
 from .asano2015 import DatasetLoader_Asano2015, build_Asano2015
 from .brendel2020 import DatasetLoader_Brendel2020, build_Brendel2020
 from .dyer2017 import DatasetLoader_Dyer2017, build_Dyer2017
